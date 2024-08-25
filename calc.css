@@ -1,0 +1,55 @@
+#container{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 20px;
+    background-color:rgb(214, 64, 96) ;
+    height: 80vh;
+    width: 50%;
+    margin: auto;
+    border: solid rgb(214, 64, 96) 20px;
+    border-radius:25px ;
+    
+
+
+
+}
+.items{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(4,1fr);
+}
+.first{
+    display: grid;
+    background-color: rgb(241, 122, 222);
+    border-radius: 15px;
+    border: solid white 2px;
+
+}
+.fifth{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(4,1fr);
+
+}
+.button{
+    background-color:rgb(248, 121, 199);
+    border-radius: 15px;
+    font-size: xx-large;
+    border: solid white 2px;
+    color: rgb(184, 48, 77);
+    
+}
+.button:active{
+    background-color:rgb(202, 145, 174);
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 20px;
+}
+input{
+    font-size: xx-large;
+    padding: 10px;
+    color: rgb(184, 48, 77);
+
+}
