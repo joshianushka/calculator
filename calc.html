@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculator</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div id="container">
+        <input type="text" id="display" readonly class="first">
+        <div class="items">
+            <button onclick="appendSymbol('7')" class="button">7</button>
+            <button onclick="appendSymbol('8')" class="button">8</button>
+            <button onclick="appendSymbol('9')" class="button">9</button>
+            <button onclick="appendSymbol('+')" class="button">+</button>
+        </div>
+        <div class="items">
+            <button onclick="appendSymbol('4')" class="button">4</button>
+            <button onclick="appendSymbol('5')" class="button">5</button>
+            <button onclick="appendSymbol('6')" class="button">6</button>
+            <button onclick="appendSymbol('-')" class="button">-</button>
+        </div>
+        <div class="items">
+            <button onclick="appendSymbol('1')" class="button">1</button>
+            <button onclick="appendSymboi('2')" class="button">2</button>
+            <button onclick="appendSymbol('3')" class="button">3</button>
+            <button onclick="appendSymbol('*')" class="button">*</button>
+        </div>
+        <div class="fifth">
+            <button onclick="clearDisplay()" class="button">C</button>
+            <button onclick="appendSymbol('0')" class="button">0</button>
+            <button onclick="calculate()" class="button">=</button>
+            <button onclick="appendSymbol('/')" class="button">%</button>
+        </div>
+    </div>
+    <script src="clac.js"></script>
+</body>
+</html>
